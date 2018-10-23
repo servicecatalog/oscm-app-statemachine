@@ -6,7 +6,7 @@
  *
  *******************************************************************************/
 
-package com.fujitsu.bss.app.statemachine.api;
+package oscm.app.statemachine.api;
 
 /**
  * @author kulle

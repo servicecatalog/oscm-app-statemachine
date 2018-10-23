@@ -1,4 +1,4 @@
-package com.fujitsu.bss.app.statemachine;
+package oscm.app.statemachine;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -13,7 +13,7 @@ import org.oscm.app.v2_0.data.ProvisioningSettings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fujitsu.bss.app.statemachine.api.StateMachineException;
+import oscm.app.statemachine.api.StateMachineException;
 
 @XmlRootElement(name = "states")
 public class States {

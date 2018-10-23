@@ -2,23 +2,20 @@
  *                                                                              
  *  COPYRIGHT (C) 2016 FUJITSU Limited - ALL RIGHTS RESERVED.                  
  *                                                                                                                                 
- *  Creation Date: 22.01.2016                                                      
+ *  Creation Date: 25.02.2016                                                      
  *                                                                              
  *******************************************************************************/
 
-package com.fujitsu.bss.app.statemachine.api;
-
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+package oscm.app.statemachine.api;
 
 /**
  * @author kulle
  *
  */
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
-public @interface StateMachineAction {
+public interface StateMachineProperties {
+
+    String SM_STATE = "SM_STATE";
+    String SM_STATE_HISTORY = "SM_STATE_HISTORY";
+    String SM_STATE_MACHINE = "SM_STATE_MACHINE";
 
 }

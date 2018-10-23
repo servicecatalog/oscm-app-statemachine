@@ -6,7 +6,7 @@
  *                                                                              
  *******************************************************************************/
 
-package com.fujitsu.bss.app.statemachine;
+package oscm.app.statemachine;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -17,6 +17,10 @@ import static org.mockito.Mockito.when;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
+
+import oscm.app.statemachine.State;
+import oscm.app.statemachine.StateMachine;
+import oscm.app.statemachine.States;
 
 /**
  * @author kulle

@@ -1,4 +1,4 @@
-package com.fujitsu.bss.app.statemachine;
+package oscm.app.statemachine;
 
 import javax.xml.bind.annotation.XmlAttribute;
 

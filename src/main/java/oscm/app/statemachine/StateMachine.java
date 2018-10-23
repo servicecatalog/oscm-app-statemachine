@@ -1,4 +1,4 @@
-package com.fujitsu.bss.app.statemachine;
+package oscm.app.statemachine;
 
 import java.io.InputStream;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.oscm.app.v2_0.data.Setting;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fujitsu.bss.app.statemachine.api.StateMachineException;
-import com.fujitsu.bss.app.statemachine.api.StateMachineProperties;
+import oscm.app.statemachine.api.StateMachineException;
+import oscm.app.statemachine.api.StateMachineProperties;
 
 public class StateMachine {
 
