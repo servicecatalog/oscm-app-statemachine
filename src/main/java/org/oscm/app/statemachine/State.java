@@ -1,4 +1,4 @@
-package oscm.app.statemachine;
+package org.oscm.app.statemachine;
 
 import java.util.List;
 

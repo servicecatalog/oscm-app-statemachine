@@ -1,4 +1,4 @@
-package oscm.app.statemachine;
+package org.oscm.app.statemachine;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -10,10 +10,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import org.oscm.app.data.InstanceStatus;
 import org.oscm.app.data.ProvisioningSettings;
+import org.oscm.app.statemachine.api.StateMachineException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import oscm.app.statemachine.api.StateMachineException;
 
 @XmlRootElement(name = "states")
 public class States {

@@ -17,10 +17,9 @@ import static org.mockito.Mockito.when;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-
-import oscm.app.statemachine.State;
-import oscm.app.statemachine.StateMachine;
-import oscm.app.statemachine.States;
+import org.oscm.app.statemachine.State;
+import org.oscm.app.statemachine.StateMachine;
+import org.oscm.app.statemachine.States;
 
 /**
  * @author kulle

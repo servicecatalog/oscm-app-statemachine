@@ -6,7 +6,7 @@
  *
  *******************************************************************************/
 
-package oscm.app.statemachine.api;
+package org.oscm.app.statemachine.api;
 
 /**
  * @author kulle
