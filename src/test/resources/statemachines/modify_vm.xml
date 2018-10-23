@@ -1,0 +1,23 @@
+<states class="com.fujitsu.bss.app.vrealize.actions.ModifyActions">
+
+  <state id="BEGIN" action="modifyVm">
+    <event id="modify" state="MODIFYING" />
+    <event id="fail" state="ERROR" />
+  </state>
+
+  <state id="MODIFYING" timeouteSec="10" action="inspectTaskResult">
+    <event id="run" state="MODIFYING" />
+    <event id="success" state="FINALIZE" />
+    <event id="fail" state="ERROR" />
+  </state>
+
+  <state id="FINALIZE" action="finalizeProvisioning">
+    <event id="success" state="SUCCESS" />
+    <event id="fail" state="ERROR" />
+  </state>
+  
+  <state id="SUCCESS" />
+  
+  <state id="ERROR" />
+  
+</states>
