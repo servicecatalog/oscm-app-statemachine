@@ -1,7 +1,0 @@
-com\fujitsu\bss\app\statemachine\api\StateMachineProperties.class
-com\fujitsu\bss\app\statemachine\api\StateMachineException.class
-com\fujitsu\bss\app\statemachine\States.class
-com\fujitsu\bss\app\statemachine\api\StateMachineAction.class
-com\fujitsu\bss\app\statemachine\Event.class
-com\fujitsu\bss\app\statemachine\State.class
-com\fujitsu\bss\app\statemachine\StateMachine.class
