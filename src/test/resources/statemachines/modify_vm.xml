@@ -1,4 +1,4 @@
-<states class="com.fujitsu.bss.app.vrealize.actions.ModifyActions">
+<states class="org.oscm.app.vrealize.actions.ModifyActions">
 
   <state id="BEGIN" action="modifyVm">
     <event id="modify" state="MODIFYING" />
