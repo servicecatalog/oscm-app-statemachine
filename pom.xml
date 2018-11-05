@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.servicecatalog.oscm.app-statemachine</groupId>
   <artifactId>app-statemachine</artifactId>
-  <version>0.1.4</version>
+  <version>0.1.6</version>
   <description>APP Controller Statemachine</description>
 
   <properties>
@@ -47,17 +47,29 @@
     </pluginManagement>
   </build>
 
-  <dependencies>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.0.1</version>
+        <configuration>
+          <doclint>none</doclint>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 
+  <dependencies>
     <dependency>
       <groupId>com.github.servicecatalog.oscm-interfaces</groupId>
       <artifactId>oscm-extsvc</artifactId>
-      <version>1.3</version>
+      <version>1.4.1</version>
     </dependency>
     <dependency>
       <groupId>com.github.servicecatalog.oscm-interfaces</groupId>
       <artifactId>oscm-app-extsvc</artifactId>
-      <version>1.3</version>
+      <version>1.4.1</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
