@@ -1,9 +1,9 @@
 /*******************************************************************************
- *
- *  COPYRIGHT (C) 2016 FUJITSU Limited - ALL RIGHTS RESERVED.
- *
- *  Creation Date: 22.01.2016
- *
+ *                                                                              
+ *  Copyright FUJITSU LIMITED 2018                                           
+ *                                                                                                                                 
+ *  Creation Date: Aug 2, 2017                                                      
+ *                                                                              
  *******************************************************************************/
 
 package org.oscm.app.statemachine.api;
