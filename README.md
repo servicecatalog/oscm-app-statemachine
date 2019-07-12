@@ -2,5 +2,5 @@
 
 ## How to use it? ##
 
-Run ```mvn clean install``` to get binary, source code and javadoc archive files.
+Run ```mvn clean install``` to get archive files with binary, source code and javadoc.
 
